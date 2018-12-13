@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+#intro{
+	background: #46B2FF;
+}
+#intro h1{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color:#FFFFFF;
+	text-align:center;
+	font-size: 100px;
+}
+#intro h4{
+	color: #fff;
+	text-align: center;
+}
+#about{
+	background: #00E28C;
+}
+#about h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #fff;
+	margin: 0 65px;
+}
+#about p{
+	color:#fff;
+	font-size: 20px;
+	padding: 5px;
+	margin: 30px 10px;
+	text-align: left;
+}
+#proyectos{
+	background: #FF7A7C;
+}
+#proyectos h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #fff;
+	text-align: center;
+}
+#contacto{
+	background: #C879FF;
+	padding-bottom:50px;
+}
+#contacto h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #fff;
+}
+#contacto h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 60px; 
+	text-align: center;
+	padding-bottom: 50px; 
+	color: #fff;
+}
+#contacto label{
+	color: #fff;
+}
+#loquehago{
+	background: #F7980D;
+	text-align: center;
+}
+#loquehago h1{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	color: #fff;
+	padding-top: 40px;
+}
+#loquehago p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+.icon-counter{
+	font-size: 40px;
+	color: #fff;
+	padding: 50px;
+}
+footer{
+	background: #E63EFD;
+	color:#fff;
+	text-align: center;
+}
+
+#proyectos{
+	text-align: center; 
+	padding-bottom: 50px; 
+}
+#proyectos h2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-size: 50px; 
+	padding-top: 30px; 
+	padding-bottom: 50px;
+}
+#proyectos .img-fluid3{
+	height: 250px; 
+}
+#proyectos .img-fluid4{
+	height: 250px; 
+	align-content: center; 
+
+}
+#proyectos .img-fluid5{
+	height: 250px; 
+}
+#proyectos h3{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px; 
+}
+#proyectos h4{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align:center;
+	opacity: 0;
+	transition:  all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.hijo h3{
+	font-size:  10px;
+	text-transform: uppercase;
+}
+.hijo h4{
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
